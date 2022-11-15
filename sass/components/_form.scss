@@ -22,14 +22,13 @@
 }
 
 .form__label,
-.form__textarea {
+.form__textarea::placeholder {
 
-    &::placeholder {
     color: var(--primery-text-color);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    }
+    
 }
 
 .form__input {

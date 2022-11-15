@@ -696,7 +696,7 @@ body {
   margin-bottom: 10px;
 }
 
-.form__label::placeholder,
+.form__label,
 .form__textarea::placeholder {
   color: var(--primery-text-color);
   font-size: 12px;
