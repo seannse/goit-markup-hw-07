@@ -1,0 +1,27 @@
+.clients {
+    @extend %list;
+    gap: 30px;
+}
+
+.clients__item {
+    width: calc((100% - 150px) / 6);
+    height: 92px;
+}
+
+.clients__link {
+    @extend %link;
+
+    color: var(--icon-color);
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients__icon {
+    fill: currentColor;
+}
